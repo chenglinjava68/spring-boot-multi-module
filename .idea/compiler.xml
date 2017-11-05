@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dao-module" />
+        <module name="domain-module" />
+        <module name="service-module" />
+        <module name="web-module" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dao-module" target="1.7" />
+      <module name="domain-module" target="1.7" />
+      <module name="mySpringboot" target="1.7" />
+      <module name="service-module" target="1.7" />
+      <module name="web-module" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
