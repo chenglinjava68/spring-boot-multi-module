@@ -36,6 +36,7 @@ public class MyApplicationBoot extends SpringBootServletInitializer {
 - 在父pom中添加
  
  ```
+ <!--避免与内置tomcat冲突-->
  <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
