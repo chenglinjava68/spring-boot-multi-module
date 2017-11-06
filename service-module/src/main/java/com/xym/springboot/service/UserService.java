@@ -1,7 +1,7 @@
 package com.xym.springboot.service;
 
 import com.xym.springboot.dao.UserDao;
-import comy.xym.springboot.domain.User;
+import com.xym.springboot.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package comy.xym.springboot.domain;
+package com.xym.springboot.domain;
 
 public class User {
     private String name;

@@ -1,7 +1,7 @@
 package com.xym.springboot.dao;
 
 
-import comy.xym.springboot.domain.User;
+import com.xym.springboot.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
