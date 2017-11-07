@@ -1,10 +1,17 @@
 package com.xym.springboot.domain;
 
 public class User {
+    private Long id;
     private String name;
-    private String age;
+    private int age;
 
-    public User(String name, String age) {
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public User(Long id, String name, int age) {
+        this.id = id;
         this.name = name;
         this.age = age;
     }
@@ -17,11 +24,19 @@ public class User {
         this.name = name;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }

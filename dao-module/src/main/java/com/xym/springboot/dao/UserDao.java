@@ -16,13 +16,13 @@ public class UserDao {
     public User getUser(String name) {
         User user = mongoTemplate.findOne(new Query(Criteria.where("name").is(name)), User.class);
         if (user == null) {
-            user = new User("不存在该用户", "xx");
+            user = new User("不存在该用户", 12);
         }
         return user;
     }
 
     public User saveUser(String name, String age) {
-        mongoTemplate.save(new User(name, age));
+        mongoTemplate.save(new User(name, 22));
         return mongoTemplate.findOne(new Query(Criteria.where("name").is(name)), User.class);
     }
 }

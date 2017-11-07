@@ -10,7 +10,7 @@ public class JPAUser {
     @Id
     @GeneratedValue
     private Long id;
-    @Column(nullable = false)
+    @Column(nullable = false, length = 5)//最大长度为5
     private String name;
     @Column(nullable = false)
     private Integer age;
